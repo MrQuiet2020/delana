@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         element: <AppLayout />,
         children: [
             {
-                element: <Navigate replace={'/home'} />,
+                element: <Navigate replace to={'/home'} />,
                 index: <Home />,
             },
             {
