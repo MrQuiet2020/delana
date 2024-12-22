@@ -8,9 +8,9 @@ function AppLayout() {
     return (
         <Flex direction={'column'} pos={'relative'}>
             <Flex
-                pos={'absolute'}
                 w={'100%'}
                 h={'10vh'}
+                bg={'black'}
                 direction={'row'}
                 justify={'space-between'}
                 align={'center'}

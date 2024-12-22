@@ -5,7 +5,7 @@ function Header() {
         <BackgroundImage
             src='./background.jpg'
             c={'white'}
-            h={'100vh'}
+            h={'90vh'}
             ff={'Lalezar'}
             display={'flex'}
             style={{
