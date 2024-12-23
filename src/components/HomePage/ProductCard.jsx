@@ -5,10 +5,19 @@ function ProductCard({ title, text, imageSrc }) {
     return (
         <Card shadow='lg' padding={'lg'} radius={'md'}>
             <Card.Section>
-                <Image src={imageSrc} />
+                <Image
+                    src={imageSrc}
+                    w={'100%'}
+                    style={{ maxHeight: '20rem' }}
+                />
             </Card.Section>
             <Title>{title}</Title>
             <Text>{text}</Text>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                hic aliquam illo labore suscipit dolorem repellat, vero
+                voluptate ex deserunt?
+            </p>
         </Card>
     );
 }
