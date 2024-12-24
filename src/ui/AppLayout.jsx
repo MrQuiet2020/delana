@@ -1,13 +1,13 @@
 import { Flex, ScrollArea } from '@mantine/core';
 // import { useHover } from '@mantine/hooks';
 import { Outlet } from 'react-router-dom';
-import Navbar from '../components/HomePage/Navbar';
+import Navbar from '../components/HomePage/firstSlide/Navbar';
 
 function AppLayout() {
     // const { hovered, ref } = useHover();
     return (
         <ScrollArea h={'100vh'}>
-            <Flex direction={'column'} pos={'relative'}>
+            <Flex direction={'column'}>
                 <Flex
                     w={'100%'}
                     h={'10vh'}

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function ProductCard({ title, text, imageSrc }) {
     return (
-        <Card shadow='lg' padding={'lg'} radius={'md'}>
+        <Card shadow='lg' padding={'lg'} radius={'xs'}>
             <Card.Section>
                 <Image
                     src={imageSrc}

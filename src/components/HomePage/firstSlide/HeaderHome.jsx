@@ -6,20 +6,19 @@ function Header() {
             src='./background.jpg'
             c={'white'}
             h={'90vh'}
-            ff={'Lalezar'}
             display={'flex'}
             style={{
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'flex-end',
             }}>
-            <Title size={'6rem'} pr={'3rem'}>
+            <Title ff={'Lalezar'} size={'7rem'} pr={'3rem'}>
                 پریمیوم
             </Title>
-            <Title size={'6rem'} pr={'6rem'}>
+            <Title ff={'Lalezar'} size={'7rem'} pr={'6rem'}>
                 رنگ موی شنل
             </Title>
-            <Title size={'6rem'} pr={'9rem'}>
+            <Title ff={'Lalezar'} size={'7rem'} pr={'9rem'}>
                 در بهترین قیمت
             </Title>
         </BackgroundImage>

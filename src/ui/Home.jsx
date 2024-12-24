@@ -1,5 +1,5 @@
-import HeaderHome from '../components/HomePage/HeaderHome';
-import MainHome from '../components/HomePage/MainHome';
+import HeaderHome from '../components/HomePage/firstSlide/HeaderHome';
+import MainHome from '../components/HomePage/mainSlide/MainHome';
 
 function Home() {
     return (
